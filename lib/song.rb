@@ -53,6 +53,7 @@ class Song
       #create a key for each genre, set the value for 1
       genre_hash[genre] = 1
     end
+    end
   end
   genre_hash
 end
