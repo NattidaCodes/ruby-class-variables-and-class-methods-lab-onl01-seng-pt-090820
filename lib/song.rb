@@ -45,15 +45,14 @@ class Song
     #iterate through @@genres
     @@genres.each do |genre|
       #if the key already exists
-      if genre_hash[genre]
+        if genre_hash[genre]
       #add 1 to the value
-        genre_hash[genre] += 1
+          genre_hash[genre] += 1
       #if it doesnt
-      else
+        else
       #create a key for each genre, set the value for 1
-      genre_hash[genre] = 1
+          genre_hash[genre] = 1
+        end
     end
-    end
-  end
-  genre_hash
+      genre_hash
 end
